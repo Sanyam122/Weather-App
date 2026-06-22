@@ -2,7 +2,7 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { useState } from "react";
 
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = import.meta.env.API_KEY;
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 type WeatherInfo = {
